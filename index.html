@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+</head>
+<body>
+    <div id="container">
+        <div id="room-header">
+            <h1 id="room-name"></h1>
+            <div id="room-header-controls">
+                <img id="mic-icon" class="control-icon" src="icons/mic-off.svg" />
+                <img id="leave-icon" class="control-icon" src="icons/leave.svg" />
+            </div>
+        </div>
+        <form id="form">
+            <input type="submit" value="Enter Room"/>
+        </form>
+        <div id="members"></div>
+        <!-- Add canvas for whiteboard -->
+        <canvas id="whiteboard"></canvas>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

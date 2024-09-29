@@ -1,0 +1,19 @@
+{
+  "name": "voice-rooms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "agora-rtc-sdk-ng": "^4.22.1",
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  }
+}
